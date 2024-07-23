@@ -32,7 +32,7 @@ const MyProfile = () => {
   return (
     <div>
       <Profile
-        name="My Profile"
+        name="My"
         desc="Welcome to your personalized profile page"
         data={posts}
         handleEdit={handleEdit}
