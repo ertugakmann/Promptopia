@@ -1,5 +1,5 @@
 import React from "react";
-
+import PromptCard from "@components/PromptCard";
 const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
   return (
     <section className="w-full">
@@ -7,6 +7,7 @@ const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
         <span className="blue_gradient">{name} Profile</span>
       </h1>
       <p className="desc text-left">{desc}</p>
+
       <div className="mt-16 prompt_layout">
         {data.map((post) => (
           <PromptCard
